@@ -1,7 +1,7 @@
 docker-sonarr
 ==============
 
-Docker container for Sonarr client.
+Docker image for Sonarr client.
 
 [![](https://badge.imagelayers.io/phlak/sonarr:latest.svg)](https://imagelayers.io/?images=phlak/sonarr:latest 'Get your own badge on imagelayers.io')
 
