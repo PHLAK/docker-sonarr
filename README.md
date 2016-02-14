@@ -8,7 +8,14 @@ Docker image for Sonarr client.
 
 ### Running the container
 
-    docker run -d -p 8989:8989 -v /path/to/shows:/srv/shows --name sonarr-client phlak/sonarr
+In order to persist configuration data when upgrading your container you should create a named data
+volume. This is not required but is _highly_ recommended.
+
+    docker volume create --name sonarr-data
+
+After the data volume has been created run the daemon container with the named data volume:
+
+    docker run -d -p 8989:8989 -v sonarr-data:~/.config/NzbDrone -v /path/to/shows:/srv/shows --name sonarr-client phlak/sonarr
 
 
 ##### Optional 'docker run' Arguments

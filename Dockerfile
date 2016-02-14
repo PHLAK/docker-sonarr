@@ -25,5 +25,8 @@ RUN apk add --update ca-certificates tar wget \
 # Expose ports
 EXPOSE 8989
 
+# Set docker volumes
+VOLUME ~/.config/NzbDrone
+
 # Default command
 CMD ["mono", "--debug", "/opt/sonarr/NzbDrone.exe"]
