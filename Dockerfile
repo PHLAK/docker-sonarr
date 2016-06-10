@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.4
 MAINTAINER Chris Kankiewicz <Chris@ChrisKankiewicz.com>
 
 # Define Sonarr version
