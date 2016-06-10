@@ -2,7 +2,7 @@ FROM alpine:3.4
 MAINTAINER Chris Kankiewicz <Chris@ChrisKankiewicz.com>
 
 # Define Sonarr version
-ENV SONARR_VERSION 2.0.0.3732
+ENV SONARR_VERSION 2.0.0.4146
 
 # Create Sonarr directories
 RUN mkdir -pv /opt/sonarr
