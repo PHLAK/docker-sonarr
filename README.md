@@ -3,7 +3,7 @@ docker-sonarr
 
 Docker image for Sonarr client.
 
-[![](https://badge.imagelayers.io/phlak/sonarr:latest.svg)](https://imagelayers.io/?images=phlak/sonarr:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/phlak/sonarr.svg)](http://microbadger.com/#/images/phlak/sonarr "Get your own image badge on microbadger.com")
 
 
 ### Running the container
