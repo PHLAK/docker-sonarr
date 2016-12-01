@@ -19,8 +19,10 @@ After the data volume has been created run the daemon container with the named d
 
 #### Optional 'docker run' Arguments
 
-`--restart always` - Always restart the container regardless of the exit status. See the Docker
-                     [restart policies](https://goo.gl/OI87rA) for additional details.
+`--restart unless-stopped` - Always restart the container regardless of the exit status, but do not
+                             start it on daemon startup if the container has been put to a stopped
+                             state before. See the Docker [restart policies](https://goo.gl/Y0dlDH)
+                             for additional details.
 
 Troubleshooting
 ---------------
