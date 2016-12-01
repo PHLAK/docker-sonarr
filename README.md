@@ -15,7 +15,7 @@ volume. This is not required but is _highly_ recommended.
 
 After the data volume has been created run the daemon container with the named data volume:
 
-    docker run -d -p 8989:8989 -v sonarr-data:~/.config/NzbDrone -v /path/to/shows:/srv/shows --name sonarr-client phlak/sonarr
+    docker run -d -p 8989:8989 -v sonarr-data:/home/sonarr/.config/NzbDrone -v /path/to/shows:/srv/shows --name sonarr-client phlak/sonarr
 
 #### Optional 'docker run' Arguments
 
