@@ -15,7 +15,7 @@ RUN apk add --update mono@testing libmediainfo@testing sqlite \
     && rm -rf /var/cache/apk/*
 
 # Set Sonarr archive URL
-ENV TARBALL_URL download.sonarr.tv/v2/master/mono/NzbDrone.master.${SONARR_VERSION}.mono.tar.gz
+ENV TARBALL_URL https://download.sonarr.tv/v2/master/mono/NzbDrone.master.${SONARR_VERSION}.mono.tar.gz
 
 # Download and extract Sonarr archive
 RUN apk add --update ca-certificates tar wget \
