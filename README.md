@@ -5,6 +5,16 @@ Docker image for Sonarr client.
 
 [![](https://images.microbadger.com/badges/image/phlak/sonarr.svg)](http://microbadger.com/#/images/phlak/sonarr "Get your own image badge on microbadger.com")
 
+-----
+
+**!!! UNMAINTAINED !!!**
+
+I will no longer be maintaining this image and recommend using the
+[`linuxserver/sonarr`](https://hub.docker.com/r/linuxserver/sonarr/)
+image if you would like to run CouchPotato on Docker.
+
+-----
+
 Running the Container
 ---------------------
 
